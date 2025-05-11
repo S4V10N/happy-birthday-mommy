@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+:root {
+    --dark-purple: #9381ff;
+    --light-purple: #b8b8ff;
+    --cream: #f8f7ff;
+    --coffee-cream: #ffeedd;
+    --coffee: #ffd8be;
+    --brown: #25291c;
+    --dark-brown: #4b3d3d;
+}
+body {
+text-align: center;
+padding: 6rem 2.5rem 0 2.5rem;
+font-family: "Raleway", sans-serif;
+background: linear-gradient(to bottom, var(--dark-purple), var(--light-purple) , var(--cream));
+min-height: 100vh;
+color: var(--dark-brown);
+line-height: 1.5em;
+font-size: 1.4rem;
+}
+
+h1 {
+font-size: 4rem;
+font-family: 'Great Vibes', cursive;
+color: var(--brown);
+margin-bottom: 2rem;
+}
+
+p:nth-of-type(1) {
+    margin-bottom: 6rem;
+}
+q {
+    font-weight: bold;
+    color: var(--coffee);
+    margin: 0 auto  4rem auto;
+    display: block;
+    width: 30rem;
+    max-width: 40rem;
+    padding: 1rem 0;
+    border-top: #25291c solid 4px;
+    border-bottom: #25291c solid 4px;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+ul {
+    list-style-position: inside;
+    text-align: left;
+}
+li {
+    margin-bottom: 1.5rem;
+}
+h4 {
+    font-family: 'Great Vibes', cursive;
+}

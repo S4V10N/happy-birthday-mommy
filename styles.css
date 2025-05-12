@@ -41,8 +41,18 @@ font-family: 'Great Vibes', cursive;
 color: var(--brown);
 margin: 2rem;
 line-height: normal;
+animation: glow 10s ease-in-out infinite 5s;
 }
+@keyframes glow {
+    0% {
 
+    }
+    50% {
+                text-shadow: 0 0 10px var(--coffee), 0 0 20px var(--coffee-cream), 0 0 30px var(--cream);
+    }
+    100% {
+    }
+}
 p {
     margin-bottom: 4rem;
     min-width: 32rem;
